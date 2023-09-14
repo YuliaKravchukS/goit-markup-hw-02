@@ -1,7 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
-  background-color: #fff;
   font-style: normal;
   line-height: 1.5;
   color: #434455;
@@ -16,7 +15,7 @@ ul {
 /* ====================HEADER=================== */
 .header-nav-logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway; sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -25,8 +24,7 @@ ul {
 }
 
 .header-nav-logo span {
-
-    color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 
 .header-menu {
@@ -36,16 +34,17 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.header-menu-link{
+.header-menu-link {
   color: #2e2f42;
 }
-
 
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--OCEAN, #404bbf);
 }
-
+.address {
+  font-style: normal;
+}
 .address-list-link {
   color: var(--SLATE, #434455);
   font-size: 16px;
@@ -84,13 +83,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
+  background-color: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
-.hero-btn:hover {
-  background: var(--OCEAN, #404bbf);
+.hero-btn:hover .hero-btn:focus {
+  background-color: var(--OCEAN, #404bbf);
 }
 
 /* ======================================= */
