@@ -14,7 +14,7 @@ ul {
 
 /* ====================HEADER=================== */
 .header-nav-logo {
-  color: #4d5ae5);
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -127,11 +127,8 @@ ul {
   text-transform: capitalize;
 }
 
-.team-list {
-}
-
 .team-list-item {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .team-list-subtittle {
@@ -150,15 +147,10 @@ ul {
   line-height: 1.5;
 }
 
-.team-photo {
-}
-
 /* ======================================= */
 
 /* ====================Portfolio=================== */
 
-.portfolio {
-}
 .portfolio-tittle {
   color: #2e2f42;
   text-align: center;
@@ -166,13 +158,6 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.portfolio-list {
-}
-.portfolio-list-item {
-}
-.portfolio-photo {
 }
 
 .portfolio-subtittle {
