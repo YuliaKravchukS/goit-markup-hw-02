@@ -183,14 +183,13 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
-  .portfolio-text {
-    color: var(--SLATE, #434455);
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-  }
 }
 
+.portfolio-text {
+  color: var(--SLATE, #434455);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
 /* ======================================= */
 
 /* ====================Footer=================== */
