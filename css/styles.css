@@ -177,6 +177,8 @@ ul {
 .portfolio-list-item {
 }
 .portfolio-photo {
+  width: 360px;
+  height: 300px;
 }
 
 .portfolio-subtittle {
